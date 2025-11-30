@@ -5,7 +5,7 @@ int main(){
 
     printf("코드(1~3) 입력 (9를 누르면 종료): ");
     
-    while (code != 9)
+    while (code != 9) // 코드가 9 값을 가지기 전까지 반복
     {
         putchar('\n');
         scanf("%d", &code);
