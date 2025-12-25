@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int spc(int n);
+int spc(int);
 
 int main(){
     int i;
