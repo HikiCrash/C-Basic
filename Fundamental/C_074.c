@@ -16,15 +16,21 @@ int main(){
 int func1(){
     a = a + 30; // 전역 변수 5 + 30.
     printf("func1 : a = %d \n", a); // 35
+
+    return 0;
 }
 
 int func2(){
     a = a + 50; // 전역 변수 35 + 50.
     printf("func2 : a = %d \n", a); // 85
+
+    return 0;
 }
 
 int func3(){
     int a = 0; // 지역 변수 a값을 0.
     a = a + 1; // 0 + 1
     printf("func3 : a = %d \n", a); // 1
+
+    return 0;
 }
