@@ -7,7 +7,7 @@ int main(){
 
     plus(a, b, &c); // c의 주소를 보냄.
 
-    printf("c = %d \n", c);
+    printf("c = %d \n", c); // 30.
 
     return 0;
 }
